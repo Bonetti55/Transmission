@@ -1,0 +1,14 @@
+/Users/semyoniuditskii/Desktop/My repository/Transmission/Transmission/obj/Debug/net8.0/Transmission.GeneratedMSBuildEditorConfig.editorconfig
+/Users/semyoniuditskii/Desktop/My repository/Transmission/Transmission/obj/Debug/net8.0/Transmission.AssemblyInfoInputs.cache
+/Users/semyoniuditskii/Desktop/My repository/Transmission/Transmission/obj/Debug/net8.0/Transmission.AssemblyInfo.cs
+/Users/semyoniuditskii/Desktop/My repository/Transmission/Transmission/obj/Debug/net8.0/Transmission.csproj.CoreCompileInputs.cache
+/Users/semyoniuditskii/Desktop/My repository/Transmission/Transmission/bin/Debug/net8.0/Transmission
+/Users/semyoniuditskii/Desktop/My repository/Transmission/Transmission/bin/Debug/net8.0/Transmission.deps.json
+/Users/semyoniuditskii/Desktop/My repository/Transmission/Transmission/bin/Debug/net8.0/Transmission.runtimeconfig.json
+/Users/semyoniuditskii/Desktop/My repository/Transmission/Transmission/bin/Debug/net8.0/Transmission.dll
+/Users/semyoniuditskii/Desktop/My repository/Transmission/Transmission/bin/Debug/net8.0/Transmission.pdb
+/Users/semyoniuditskii/Desktop/My repository/Transmission/Transmission/obj/Debug/net8.0/Transmission.dll
+/Users/semyoniuditskii/Desktop/My repository/Transmission/Transmission/obj/Debug/net8.0/refint/Transmission.dll
+/Users/semyoniuditskii/Desktop/My repository/Transmission/Transmission/obj/Debug/net8.0/Transmission.pdb
+/Users/semyoniuditskii/Desktop/My repository/Transmission/Transmission/obj/Debug/net8.0/Transmission.genruntimeconfig.cache
+/Users/semyoniuditskii/Desktop/My repository/Transmission/Transmission/obj/Debug/net8.0/ref/Transmission.dll
