@@ -2,37 +2,44 @@ namespace Transmission;
 
 public class Car
 {
-    private int rpm = 700;
-    private int gear = 0;
-    private Tachometer tachometer = new Tachometer();
+    private int _rpm = 700;
+    private int _gear;
+    //private Tachometer tachometer = new Tachometer();
 
     public void TurnOn()
     {
-        gear += 1;
-        StartRevving();
+        _gear += 1;
+        StartMotorRotation();
     }
 
-    private void Shifting()
+    private void Switching()
     {
-        switch (rpm)
+        switch (_rpm)
         {
-            case 2100 when gear == 1:
-            case 2400 when gear == 2:
-            case 2700 when gear == 3:
-                gear += 1;
-                rpm -= 800;
+            case 2100 when _gear == 1:
+            case 2400 when _gear == 2:
+            case 2700 when _gear == 3:
+                _gear += 1;
+                _rpm -= 800;
                 break;
         }
     }
 
-    private void StartRevving()
+    private void StartMotorRotation()
     {
-        while (rpm >= 700)
+        while (_rpm <4000)
         {
-            rpm += 10;
-            Shifting();
-            Tachometer.LogRpmAndGear(rpm, gear);
-            Thread.Sleep(20);
+            _rpm += 10;
+            Switching();
+            Tachometer.LogRpmAndGear(_rpm, _gear);
+            Thread.Sleep(50);
+        }
+
+        while (_rpm ==4000)
+        {
+            Console.WriteLine("Отсечка");
+            Tachometer.LogRpmAndGear(_rpm, _gear);
+            Thread.Sleep(50);
         }
     }
 }

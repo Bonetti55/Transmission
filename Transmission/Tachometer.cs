@@ -1,6 +1,6 @@
 namespace Transmission;
 
-public class Tachometer
+public static class Tachometer
 {
     public static void LogRpmAndGear(int rpm, int gear)
     {
