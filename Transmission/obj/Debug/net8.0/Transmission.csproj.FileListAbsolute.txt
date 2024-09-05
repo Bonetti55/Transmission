@@ -12,3 +12,4 @@
 /Users/semyoniuditskii/Desktop/My repository/Transmission/Transmission/obj/Debug/net8.0/Transmission.pdb
 /Users/semyoniuditskii/Desktop/My repository/Transmission/Transmission/obj/Debug/net8.0/Transmission.genruntimeconfig.cache
 /Users/semyoniuditskii/Desktop/My repository/Transmission/Transmission/obj/Debug/net8.0/ref/Transmission.dll
+/Users/semyoniuditskii/Desktop/My repository/Transmission/Transmission/obj/Debug/net8.0/Transmission.sourcelink.json
